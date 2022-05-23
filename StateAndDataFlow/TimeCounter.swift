@@ -34,6 +34,7 @@ class TimeCounter: ObservableObject {
             killTimer()
             buttonTitle = "Reset"
         }
+        
         objectWillChange.send(self)
     }
     
