@@ -24,6 +24,8 @@ struct TimerView: View {
             Spacer()
             
             VStack {
+                
+                Spacer()
                 Spacer()
                 
                 ButtonView(title: timer.buttonTitle, color: .red) {
